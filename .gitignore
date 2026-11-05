@@ -1,0 +1,16 @@
+# 依賴套件
+node_modules/
+
+# 本機 Claude Code 設定(含個人路徑與權限規則)
+.claude/settings.local.json
+
+# 建置暫存
+*.bak
+*.bak[0-9]
+*.bak-*
+qa-*.png
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
